@@ -1,0 +1,159 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+body,
+html {
+  background-color: #e0f47b;
+  text-align: center;
+}
+
+body {
+  font-family: 'Arapey', serif;
+
+}
+
+h1 {
+  color: #141515;
+}
+
+div.topbar {
+  background-color: #eae31a;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  margin: auto
+}
+
+
+
+#title {
+  font-size: 34px;
+}
+
+#links {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#links>li>a {
+  color: #1a3c2e;
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#links>li {
+  position: relative;
+
+}
+
+#links>li:hover>a {
+  color: #0b280e;
+  background-color: #e0f47b
+}
+
+#links>li:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #b3d0b7;
+  display: none;
+
+}
+
+.dropdown a:hover {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.dropdown a:hover {
+  background-color: #869c86;
+}
+
+.triangle {
+  width: 20px;
+  height: 10px;
+  background: white;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-banner {
+  padding: 10px;
+  background: #d8d684;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+
+}
+
+.img-banner img {
+  width: 1150px;
+}
+
+.container {
+  width: 1170px;
+  margin: auto
+}
+
+.content-area {
+  position: relative;
+  background: #d8d684;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+div.content-background {
+  background-color: #e0f47b;
+  padding: 10px;
+  font-size: 18px;
+  font-style: normal;
+  text-align: justify !important;
+}
+
+div.content {
+
+  float: left;
+  width: 70%;
+}
+
+div.sidebar {
+  width: 30%;
+  float: right;
+  background-color: #e0f47b;
+}
+
+.clear {
+  clear: both;
+}
+
+.contact-frame {
+  margin: auto;
+  width: 640px;
+}
