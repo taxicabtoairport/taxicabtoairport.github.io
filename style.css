@@ -92,12 +92,34 @@ nav {
 .dropdown a:hover {
   background-color: #869c86;
 }
+iframe{
+  width:600px
+}
 @media(max-width:1024px){
   nav{display:block}
   #title{font-size:20px}
   #links{margin:0 10px;}
   #links>li>a{padding: 20px 30px; font-size:18px}
+  iframe{width:500px}
 }
+
+@media(max-width:550px){
+  nav{display:block}
+  #title{font-size:20px}
+  #links{margin:0 10px;}
+  #links>li>a{padding: 20px 30px; font-size:18px}
+  iframe{width:300px}
+}
+
+
+@media(max-width:350px){
+  nav{display:block}
+  #title{font-size:20px}
+  #links{margin:0 10px;}
+  #links>li>a{padding: 20px 30px; font-size:18px}
+  iframe{width:250px}
+}
+
 .triangle {
   width: 20px;
   height: 10px;
