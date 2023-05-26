@@ -92,7 +92,12 @@ nav {
 .dropdown a:hover {
   background-color: #869c86;
 }
-
+@media(max-width:1024px){
+  nav{display:block}
+  #title{font-size:20px}
+  #links{margin:0 10px;}
+  #links>li>a{padding: 20px 30px; font-size:18px}
+}
 .triangle {
   width: 20px;
   height: 10px;
