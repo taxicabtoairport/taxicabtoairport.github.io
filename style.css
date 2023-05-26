@@ -31,14 +31,14 @@ div.topbar {
 nav {
   display: flex;
   align-items: center;
-  width: 1170px;
+  max-width: 1170px;
   margin: auto
 }
 
 
 
 #title {
-  font-size: 34px;
+  font-size: 24px;
 }
 
 #links {
@@ -113,11 +113,12 @@ nav {
 }
 
 .img-banner img {
-  width: 1150px;
+  max-width:100%;
+  display:block;
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: auto
 }
 
@@ -155,5 +156,5 @@ div.sidebar {
 
 .contact-frame {
   margin: auto;
-  width: 640px;
+  max-width: 640px;
 }
